@@ -1,0 +1,7 @@
+.Results {
+    flex: 0.55;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

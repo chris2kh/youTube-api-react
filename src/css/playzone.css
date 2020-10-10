@@ -1,0 +1,7 @@
+.Playzone {
+    /* border: 1px solid blue; */
+    flex: 0.45;
+    display: flex;
+    flex-direction: column;
+    top: 81px;
+}

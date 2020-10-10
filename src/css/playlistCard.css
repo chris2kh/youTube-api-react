@@ -1,0 +1,58 @@
+.PlaylistCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.PlaylistCard:hover {
+    background-color: #ececec;
+}
+
+.PlaylistCard:hover > .PlaylistCard-trash-icon{
+    visibility: visible;
+}
+
+.PlaylistCard-play-icon {
+    fill: #606060;
+    width: 17px;
+    height: 17px;
+}
+
+
+.PlaylistCard-trash-icon {
+    fill: #909090;
+    width: 25px;
+    height: 25px;
+    visibility: hidden;
+}
+
+.PlaylistCard-trash-icon:hover {
+    cursor: pointer;
+}
+
+.PlaylistCard-thumbnail {
+    height: 70px;
+    width: 125px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.PlaylistCard-text-info {
+    flex: 0.7;
+}
+
+.PlaylistCard-text-info-title {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.PlaylistCard-text-info-channel {
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #606060;
+}

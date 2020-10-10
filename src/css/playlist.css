@@ -1,0 +1,25 @@
+.playlist {
+    display:flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+.playlist.show {
+    border: 1px solid #d6d4d4;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.playlist.empty {
+    text-align: center;
+    background-color: #ececec;
+    border : 3px dashed #666566;
+    height: 100%;
+}
+
+.playlist.empty > p {
+    padding-top: 50px;
+    font-family: 'Roboto';
+    font-size: larger;
+}
