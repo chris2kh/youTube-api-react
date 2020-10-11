@@ -23,7 +23,7 @@ ___
 ## Todo
 
 - [ ] Learn how to use properly the iframe video player api to add videos to the play list and keep the video player running.
-- [ ] Write the logic to show the play button icon only for the current item that is being played 
-
+- [ ] Write the logic to show the play button icon only for the current item that is being played
+- [ ] Use a library or figure a way to create unique keys for videos in the playlist (If I add the same video twice to the playlist, both items have the same key and react behaves strangely.
 
 
