@@ -41,6 +41,6 @@ export default function Playlist({results, playlist, setPlaylist}) {
     if (results.items.length > 0 && playlist.length === 0){
         return dragYourVideosHereSign;
     }
-    // user has search for videos and has already load videos in playlist
+    // user has searched for videos and has already loaded videos in playlist
     return playlistWithVideos;
 }
